@@ -1,0 +1,6 @@
+[Init]
+blocktype = counter redirect to 2222
+table_family = ip
+chain_type = nat
+chain_hook = prerouting
+chain_priority = -50
